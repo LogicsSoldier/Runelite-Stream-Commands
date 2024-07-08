@@ -11,7 +11,7 @@ A bunch of useful stream bot commands you can use to lookup OSRS related informa
  - **!wlink**   [Wiki Link Generator](#wiki-link-command)
 
 #### Neat but less professional / more advanced
- - **!wiki**   [Wiki Text Queries](#wiki-text-query)
+ - **!wiki**   [Wiki Text Search](#wiki-text-query)
  - **!maxhit**   [Maxhit Calculator](#max-hit-calculator-w-prefabs)
 
 #### Explanation
