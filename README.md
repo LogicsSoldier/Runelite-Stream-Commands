@@ -33,7 +33,7 @@ Shows noteable features of an osrs account in a condensed way.
 </image>
 </p>
 
-Features
+#### Features
  - shows total level / combat level
  - is iron / type
  - top 3 interesting non99s
@@ -79,7 +79,7 @@ Looks up real time prices accurate up to 5 minutes.
 </image>
 </p>
 
-Features
+#### Features
  - Uses Runelite's API to get real time prices with similar accuracy to GE tracker and other services
  - Multiple levels of name resolvers so you always find what your looking for
  - Allows for virtual sets such as torva set (which doesnt exist) to be calculated as a bulk query
@@ -124,7 +124,7 @@ Uses the wiki resolver also used by the price command to rapidly pull up a link 
 </image>
 </p>
 
-Features
+#### Features
  - Uses wiki resolver for flexible querying
  - Quickly displays related wiki links in chat
    
@@ -172,18 +172,22 @@ Pretty advanced wiki query command. Attempts to get the information you need and
 
 `!wiki <subject> | <sub-query>` 
 
-`!wiki <subject> | <sub-query> [increments]` (example: !wiki dwarf | pickaxe <<)
+`!wiki <subject> | <sub-query> [increments]` 
+
+EXAMPLE: `!wiki dwarf | pickaxe <<` 
+
+  -- *returns the second to last pickaxe reference on the page about dwarves*
 
 `|` allows you to perform a text search within the page you find
 
-if you perform a sub query you can also do
+if you perform a sub query you can also do:
 
 `>` increment, forward from start of page
 
 `<` decrement, move backwards from the end of the page
 
 
-Features
+#### Features
  - Quickly calculate max hit potential based on any styles current strength
  - save prefabs and armor sets for later use
  - Can modify player levels, passives, pot boosts etc
@@ -252,7 +256,7 @@ This one is really complicated and probably needs more explanation on how to use
  - `--isPraying`
 
 
-Features
+#### Features
  - Quickly calculate max hit potential based on any styles current strength
  - save prefabs and armor sets for later use
  - Can modify player levels, passives, pot boosts etc
