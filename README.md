@@ -221,7 +221,9 @@ Pretty advanced wiki query command. Attempts to get the information you need and
 #### Syntax
 `!wiki <subject>`
 
-`!wiki <subject> | <sub-query>` (example: !wiki dwarf | pickaxe)
+`!wiki <subject> | <sub-query>` 
+
+`!wiki <subject> | <sub-query> [increments]` (example: !wiki dwarf | pickaxe <<)
 
 `|` allows you to perform a text search within the page you find
 
