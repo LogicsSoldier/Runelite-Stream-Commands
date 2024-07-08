@@ -32,7 +32,7 @@ Features
 -------
 
 > [!TIP]
-> It is recommended you use StreamElements as it can handle multiple requests at once and will ensure best results.
+> StreamElements is the preferred choice as it allows for multiple requests to be queued at once.
 
 <details>
   <summary>Nightbot</summary>
@@ -77,7 +77,8 @@ Features
 -------
 
 > [!TIP]
-> It is recommended you use StreamElements as it can handle multiple requests at once and will ensure best results.
+> StreamElements is the preferred choice as it allows for multiple requests to be queued at once.
+
 
 <details>
   <summary>Nightbot</summary>
@@ -119,7 +120,8 @@ Features
 -------
 
 > [!TIP]
-> It is recommended you use StreamElements as it can handle multiple requests at once and will ensure best results.
+> StreamElements is the preferred choice as it allows for multiple requests to be queued at once.
+
 
 <details>
   <summary>Nightbot</summary>
