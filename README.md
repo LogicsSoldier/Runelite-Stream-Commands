@@ -21,7 +21,7 @@ A bunch of useful stream bot commands you can use to lookup OSRS related informa
 > It's as easy as finding the command you want, selecting which bot you're using (nightbot, streamelements, or botrix), and copy pasting that command into your chat.
 
 #### How it works
-> Now that it's saved, anytime a user calls the command the bot can use the command referenced to send a GET request to the google script's url! It works like an active webpage. The message is sent to the google script where it performs it's calculations independently and then sends back the text however instead of being viewed in the browser it's displayed in chat as a command response.
+> Now that it's saved, anytime a user calls the command the bot can use the command referenced to send a GET request to the google script's url! It works like an active webpage. The message is sent to the google script where it performs it's calculations independently and then sends back the text however instead of being viewed in the browser it's displayed in chat as the command's response.
 
 #### Credits
 Streamers: [Bellis](https://www.twitch.tv/bellis), [Westham](https://www.twitch.tv/westham), [Vanc](https://www.twitch.tv/Vanc), [Osku](https://www.twitch.tv/Osku), and [Dino_xx](https://www.twitch.tv/dino_xx)
