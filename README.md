@@ -23,11 +23,11 @@ Shows noteable features of an osrs account in a condensed way.
 </p>
 
 Features
- - total level / combat level
+ - shows total level / combat level
  - is iron / type
  - top 3 interesting non99s
- - show high agility lvls / inferno / colosseum
- - favorite activity
+ - important account achievements (I.E. high agility lvls / inferno / colosseum)
+ - favorite activity (highest ranked)
    
 -------
 
