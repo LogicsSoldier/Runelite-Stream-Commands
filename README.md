@@ -262,6 +262,9 @@ This one is really complicated and probably needs more explanation on how to use
  - save prefabs and armor sets for later use
  - Can modify player levels, passives, pot boosts etc
 
+###### additional information
+If you'd like to read through my tests to see some of it's potential [check here](https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/ecc13020-5879-4aca-b71e-e2caf5f5fe7d)
+
 -------
 
 > [!TIP]
