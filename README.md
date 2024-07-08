@@ -51,7 +51,7 @@ Features
 
 </details>
 <details>
-  <summary>Botrix</summary>
+  <summary>Botrix (Kick.com)</summary>
   
   ```
   !addcom !sus fetch[https://script.google.com/macros/s/AKfycbx6Hk9ANAvbWJ4RTSZIXQeAlT4aMZcvZQ_ujvMBWHvY15r9paYTbCvpQkCRCXEQBLFi/exec?raw=$(variable)]
@@ -97,7 +97,7 @@ Features
 
 </details>
 <details>
-  <summary>Botrix</summary>
+  <summary>Botrix (Kick.com)</summary>
   
   ```
   !addcom !price fetch[https://script.google.com/macros/s/AKfycbxgDKb-yxuAdbJFOVPETNUC3e2Mnhm92DO-6eVDEsYT5YRgtxZXxoGitmB89Lc5YCtF/exec?raw=$(variable)]
@@ -140,7 +140,7 @@ Features
 
 </details>
 <details>
-  <summary>Botrix</summary>
+  <summary>Botrix (Kick.com)</summary>
   
   ```
   !addcom !price fetch[https://script.google.com/macros/s/AKfycbyYtxnCW7oND6bMs8faGK57CKHg0qqK5DuHPrrOr2Hg9r6TiJOuZ5bV9kwi61j3D4-y/exec?raw=$(variable)]
