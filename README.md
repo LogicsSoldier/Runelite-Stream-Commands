@@ -127,6 +127,7 @@ Uses the same wiki resolver implemented in the price command to rapidly find **o
 #### Features
  - Uses wiki resolver for flexible querying
  - Quickly displays related wiki links in chat
+ - Easy way to allow for trusted links
    
 -------
 
