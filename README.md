@@ -2,9 +2,9 @@
 A bunch of useful commands you can use to plugin to wiki and runelite api's in order to augment your stream.
 
 #### Commands
- - [Account Lookup](https://github.com/LogicsSoldier/Runelite-Stream-Commands/edit/main/README.md#sus-command)
- - [Item Prices](https://github.com/LogicsSoldier/Runelite-Stream-Commands/edit/main/README.md#price-command)
- - [Quick Wiki Page](https://github.com/LogicsSoldier/Runelite-Stream-Commands/blob/main/README.md#wiki-link-command)
+ - [Account Lookup](#sus-command)
+ - [Item Prices](#price-command)
+ - [Quick Wiki Page](#wiki-link-command)
    
 ## Sus Command
 Shows noteable features of an osrs account in a condensed way.
