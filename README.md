@@ -38,6 +38,8 @@ A bunch of useful stream bot commands you can use to lookup OSRS related informa
 #### Credits
 Streamers: [Bellis](https://www.twitch.tv/bellis), [Westham](https://www.twitch.tv/westham), [Vanc](https://www.twitch.tv/Vanc), [Osku](https://www.twitch.tv/Osku), and [Dino_xx](https://www.twitch.tv/dino_xx)
 
+Honorable mentions: [jay_gravy](https://www.twitch.tv/jay_gravy), [scriptkid_rs](https://www.twitch.tv/scriptkid_rs), and many others who showed love and chatted with me in discord.
+
 _Special thanks to these streamers for inspiring me to make this in the first place / letting me test these commands in their streams. All lovely fellows. ALSO, huge thanks to wiki boys for making such widely available API's and assisting when there were server issues._
 
 ## Sus Command
