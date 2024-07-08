@@ -6,9 +6,9 @@ A bunch of useful stream bot commands you can use to lookup OSRS related informa
 ![Static Badge](https://img.shields.io/badge/Protected_Through_Separation_Of_Concerns-purple)
 
 #### Commands (recommended)
- - **!sus**   [Account Lookup](#sus-command)
- - **!price**   [Item Prices](#price-command)
- - **!wlink**   [Wiki Page Finder](#wiki-link-command)
+ - **!sus**   [Account Lookup / Identifier](#sus-command)
+ - **!price**   [Realtime Item Prices](#price-command)
+ - **!wlink**   [Quick Wiki Page Links](#wiki-link-command)
 
 #### Neat but not as recommended for big streams:
  - **!wiki**   [Wiki Text Search](#wiki-text-query)
