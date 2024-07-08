@@ -5,10 +5,14 @@ A bunch of useful stream bot commands you can use to lookup OSRS related informa
 ![Static Badge](https://img.shields.io/badge/Safe_Secure-No_Identifiable_Information_Accessed-blue)
 ![Static Badge](https://img.shields.io/badge/Protected_Through_Separation_Of_Concerns-purple)
 
-#### Commands
+#### Commands (recommended)
  - **!sus**   [Account Lookup](#sus-command)
  - **!price**   [Item Prices](#price-command)
  - **!wlink**   [Quick Wiki Page](#wiki-link-command)
+
+#### Neat but less professional
+ - **!wiki**   [Wiki Text Queries](#wiki-text-query)
+ - **!maxhit**   [Maxhit Calculator](#max-hit-calculator-w-prefabs)
 
 #### Explanation
 > These commands use google scripts and the native bots built for the streaming platforms you love. This keeps your IP and information hidden and allows the scripts to be platform independent.
@@ -151,3 +155,110 @@ Features
 </details>
 
 
+
+## Max Hit Calculator w/ Prefabs
+This one is really complicated and probably needs more explanation on how to use it but it's a max hit calculator that works as a command.
+
+<p>
+<image align="center" src="https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/ee67b346-0c5e-464b-b0a1-4dfa87ae75a8" width="400" height="115">
+</image>
+</p>
+<p>
+<image align="center" src="https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/34690d9a-4736-4914-b7c4-9aaa052a10df" width="400" height="130">
+</image>
+</p>
+
+Features
+ - Quickly calculate max hit potential based on any styles current strength
+ - save prefabs and armor sets for later use
+ - Can modify player levels, passives, pot boosts etc
+   
+-------
+
+> [!TIP]
+> StreamElements is the preferred choice as it allows for multiple requests to be queued at once.
+
+
+<details>
+  <summary>Nightbot</summary>
+
+  ```
+  !addcom !maxhit /me $(urlfetch https://script.google.com/macros/s/AKfycbybRK2W3RkjbhCDEKhB0oUt-Pn5Oz5Om32UmXUSGitWYBGFUzF8t1jNU3oS_Z4Ln5tX4Q/exec?raw=$(querystring))
+  ```
+
+</details>
+<details>
+  <summary>StreamElements</summary>
+  
+  ```
+  !command add !maxhit /me $(urlfetch https://script.google.com/macros/s/AKfycbybRK2W3RkjbhCDEKhB0oUt-Pn5Oz5Om32UmXUSGitWYBGFUzF8t1jNU3oS_Z4Ln5tX4Q/exec?raw=${queryescape ${1:}})
+  ```
+
+</details>
+<details>
+  <summary>Botrix (Kick.com)</summary>
+  
+  ```
+  !addcom !maxhit fetch[https://script.google.com/macros/s/AKfycbybRK2W3RkjbhCDEKhB0oUt-Pn5Oz5Om32UmXUSGitWYBGFUzF8t1jNU3oS_Z4Ln5tX4Q/exec?raw=$(variable)]
+  ```
+
+</details>
+
+
+## Wiki Text Query
+Pretty advanced wiki query command. Attempts to get the information you need and present it neatly.
+
+<p>
+<image align="center" src="https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/073c8a39-fcf6-4549-b110-9b5ba26271cb" width="400" height="215">
+</image>
+</p>
+
+#### Syntax
+`!wiki <subject>`
+
+`!wiki <subject> | <sub-query>` (example: !wiki dwarf | pickaxe)
+
+`|` allows you to perform a text search within the page you find
+
+if you perform a sub query you can also do
+
+`>` increment, forward from start of page
+
+`<` decrement, move backwards from the end of the page
+
+
+Features
+ - Quickly calculate max hit potential based on any styles current strength
+ - save prefabs and armor sets for later use
+ - Can modify player levels, passives, pot boosts etc
+   
+-------
+
+> [!TIP]
+> StreamElements is the preferred choice as it allows for multiple requests to be queued at once.
+
+
+<details>
+  <summary>Nightbot</summary>
+
+  ```
+  !addcom !maxhit /me $(urlfetch https://script.google.com/macros/s/AKfycbybRK2W3RkjbhCDEKhB0oUt-Pn5Oz5Om32UmXUSGitWYBGFUzF8t1jNU3oS_Z4Ln5tX4Q/exec?raw=$(querystring))
+  ```
+
+</details>
+<details>
+  <summary>StreamElements</summary>
+  
+  ```
+  !command add !maxhit /me $(urlfetch https://script.google.com/macros/s/AKfycbybRK2W3RkjbhCDEKhB0oUt-Pn5Oz5Om32UmXUSGitWYBGFUzF8t1jNU3oS_Z4Ln5tX4Q/exec?raw=${queryescape ${1:}})
+  ```
+
+</details>
+<details>
+  <summary>Botrix (Kick.com)</summary>
+  
+  ```
+  !addcom !maxhit fetch[https://script.google.com/macros/s/AKfycbybRK2W3RkjbhCDEKhB0oUt-Pn5Oz5Om32UmXUSGitWYBGFUzF8t1jNU3oS_Z4Ln5tX4Q/exec?raw=$(variable)]
+  ```
+
+</details>
