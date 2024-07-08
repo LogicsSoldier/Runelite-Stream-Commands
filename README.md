@@ -11,7 +11,7 @@ A bunch of useful stream bot commands you can use to lookup OSRS related informa
  - [Quick Wiki Page](#wiki-link-command)
 
 #### Explanation
-> These commands use google scripts and the native bots built for the streaming platforms you love. This keeps your IP and information hidden and allows the scripts to be platform independant.
+> These commands use google scripts and the native bots built for the streaming platforms you love. This keeps your IP and information hidden and allows the scripts to be platform independent.
 
 
 ## Sus Command
