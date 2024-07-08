@@ -160,11 +160,11 @@ Features
 This one is really complicated and probably needs more explanation on how to use it but it's a max hit calculator that works as a command.
 
 <p>
-<image align="center" src="https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/ee67b346-0c5e-464b-b0a1-4dfa87ae75a8" width="400" height="115">
+<image align="center" src="https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/ee67b346-0c5e-464b-b0a1-4dfa87ae75a8" width="400" height="95">
 </image>
 </p>
 <p>
-<image align="center" src="https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/34690d9a-4736-4914-b7c4-9aaa052a10df" width="400" height="130">
+<image align="center" src="https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/34690d9a-4736-4914-b7c4-9aaa052a10df" width="400" height="125">
 </image>
 </p>
 
