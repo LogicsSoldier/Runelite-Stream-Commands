@@ -117,7 +117,7 @@ Looks up real time prices accurate up to 5 minutes.
 </details>
 
 ## Wiki Link Command
-Uses the wiki resolver also used by the price command to rapidly pull up a link in chat. This can be beneficial as it provides a safe way for users to share links about RS, and gives a reference point for the users in the chat.
+Uses the same wiki resolver implemented in the price command to rapidly pull up [oldschool wiki links](https://oldschool.runescape.wiki/) in the chat. These links are always trusted and safe.
 
 <p>
 <image align="center" src="https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/5aa7362f-d326-4453-a8d8-1eb7b7821658" width="400" height="120">
