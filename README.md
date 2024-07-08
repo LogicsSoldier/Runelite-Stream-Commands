@@ -6,9 +6,9 @@ A bunch of useful stream bot commands you can use to lookup OSRS related informa
 ![Static Badge](https://img.shields.io/badge/Protected_Through_Separation_Of_Concerns-purple)
 
 #### Commands
- - [Account Lookup](#sus-command)
- - [Item Prices](#price-command)
- - [Quick Wiki Page](#wiki-link-command)
+ - [Account Lookup (!sus)](#sus-command)
+ - [Item Prices (!price)](#price-command)
+ - [Quick Wiki Page (!wlink)](#wiki-link-command)
 
 #### Explanation
 > These commands use google scripts and the native bots built for the streaming platforms you love. This keeps your IP and information hidden and allows the scripts to be platform independent.
