@@ -218,7 +218,7 @@ if you perform a sub query you can also do:
   <summary>Nightbot</summary>
 
   ```
-  !addcom !maxhit /me $(urlfetch https://script.google.com/macros/s/AKfycbybRK2W3RkjbhCDEKhB0oUt-Pn5Oz5Om32UmXUSGitWYBGFUzF8t1jNU3oS_Z4Ln5tX4Q/exec?raw=$(querystring))
+  !addcom !wiki /me $(urlfetch https://script.google.com/macros/s/AKfycbybRK2W3RkjbhCDEKhB0oUt-Pn5Oz5Om32UmXUSGitWYBGFUzF8t1jNU3oS_Z4Ln5tX4Q/exec?raw=$(querystring))
   ```
 
 </details>
@@ -226,7 +226,7 @@ if you perform a sub query you can also do:
   <summary>StreamElements</summary>
   
   ```
-  !command add !maxhit /me $(urlfetch https://script.google.com/macros/s/AKfycbybRK2W3RkjbhCDEKhB0oUt-Pn5Oz5Om32UmXUSGitWYBGFUzF8t1jNU3oS_Z4Ln5tX4Q/exec?raw=${queryescape ${1:}})
+  !command add !wiki /me $(urlfetch https://script.google.com/macros/s/AKfycbybRK2W3RkjbhCDEKhB0oUt-Pn5Oz5Om32UmXUSGitWYBGFUzF8t1jNU3oS_Z4Ln5tX4Q/exec?raw=${queryescape ${1:}})
   ```
 
 </details>
@@ -234,7 +234,7 @@ if you perform a sub query you can also do:
   <summary>Botrix (Kick.com)</summary>
   
   ```
-  !addcom !maxhit fetch[https://script.google.com/macros/s/AKfycbybRK2W3RkjbhCDEKhB0oUt-Pn5Oz5Om32UmXUSGitWYBGFUzF8t1jNU3oS_Z4Ln5tX4Q/exec?raw=$(variable)]
+  !addcom !wiki fetch[https://script.google.com/macros/s/AKfycbybRK2W3RkjbhCDEKhB0oUt-Pn5Oz5Om32UmXUSGitWYBGFUzF8t1jNU3oS_Z4Ln5tX4Q/exec?raw=$(variable)]
   ```
 
 </details>
@@ -290,7 +290,7 @@ If you'd like to read through my tests to see some of it's potential [check here
   <summary>Nightbot</summary>
 
   ```
-  !addcom !maxhit /me $(urlfetch https://script.google.com/macros/s/AKfycbybRK2W3RkjbhCDEKhB0oUt-Pn5Oz5Om32UmXUSGitWYBGFUzF8t1jNU3oS_Z4Ln5tX4Q/exec?raw=$(querystring))
+  !addcom !maxhit /me $(urlfetch https://script.google.com/macros/s/AKfycbz58h34kgrHheahx7oxqOQpL6zL9cG948ML6UzDU6Emt9IHFmV1bCHFnRA89V6ERAc_/exec?raw=$(querystring))
   ```
 
 </details>
@@ -298,7 +298,7 @@ If you'd like to read through my tests to see some of it's potential [check here
   <summary>StreamElements</summary>
   
   ```
-  !command add !maxhit /me $(urlfetch https://script.google.com/macros/s/AKfycbybRK2W3RkjbhCDEKhB0oUt-Pn5Oz5Om32UmXUSGitWYBGFUzF8t1jNU3oS_Z4Ln5tX4Q/exec?raw=${queryescape ${1:}})
+  !command add !maxhit /me $(urlfetch https://script.google.com/macros/s/AKfycbz58h34kgrHheahx7oxqOQpL6zL9cG948ML6UzDU6Emt9IHFmV1bCHFnRA89V6ERAc_/exec?raw=${queryescape ${1:}})
   ```
 
 </details>
@@ -306,7 +306,7 @@ If you'd like to read through my tests to see some of it's potential [check here
   <summary>Botrix (Kick.com)</summary>
   
   ```
-  !addcom !maxhit fetch[https://script.google.com/macros/s/AKfycbybRK2W3RkjbhCDEKhB0oUt-Pn5Oz5Om32UmXUSGitWYBGFUzF8t1jNU3oS_Z4Ln5tX4Q/exec?raw=$(variable)]
+  !addcom !maxhit fetch[https://script.google.com/macros/s/AKfycbz58h34kgrHheahx7oxqOQpL6zL9cG948ML6UzDU6Emt9IHFmV1bCHFnRA89V6ERAc_/exec?raw=$(variable)]
   ```
 
 </details>
