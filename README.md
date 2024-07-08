@@ -28,7 +28,9 @@ A bunch of useful stream bot commands you can use to lookup OSRS related informa
  
 <br/>
 
->Now that it's saved, anytime a user calls the command the bot can use the command referenced to send a GET request to the google script's url! It works like any independent webpage the bot can query. The message is sent to the google script where it performs it's calculations internally and then sends back the text that will be displayed. I think it's unquestionable this makes it much safer than simply even browsing a website yourself. =D
+>Now that it's saved, anytime a user calls the command the bot can use the command referenced to send a GET request to the google script's url! It works like any independent webpage the bot can query. The message is sent to the google script where it performs it's calculations internally and then sends back the text that will be displayed.
+
+> I think it's unquestionable this makes it much safer than simply even browsing a website yourself, additionally the text returned in this format has no ability to influence or call other commands, both per the common sense rules implemented by each one of these stream bots and as an extra precaution by the /me prefaced in the commands when available. =D
 
 </details>
 
