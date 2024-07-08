@@ -13,6 +13,8 @@ A bunch of useful stream bot commands you can use to lookup OSRS related informa
 #### Explanation
 > These commands use google scripts and the native bots built for the streaming platforms you love. This keeps your IP and information hidden and allows the scripts to be platform independent.
 
+#### Installation
+> It's as easy as finding the command you want, selecting which bot your using (nightbot, streamelements, or botrix), and copy pasting that command into your chat.
 
 ## Sus Command
 Shows noteable features of an osrs account in a condensed way.
