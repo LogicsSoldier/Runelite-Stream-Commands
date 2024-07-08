@@ -1,11 +1,19 @@
 # Runelite-Stream-Commands
-A bunch of useful commands you can use to plugin to wiki and runelite api's in order to augment your stream.
+A bunch of useful stream bot commands you can use to lookup OSRS related information and augment your stream. No installation.
+
+![Static Badge](https://img.shields.io/badge/No_Additional_Permissions_Needed-Moderators_Can_Add-green)
+![Static Badge](https://img.shields.io/badge/Safe_Secure-No_Identifiable_Information_Accessed-blue)
+![Static Badge](https://img.shields.io/badge/Protected_Through_Separation_Of_Concerns-purple)
 
 #### Commands
  - [Account Lookup](#sus-command)
  - [Item Prices](#price-command)
  - [Quick Wiki Page](#wiki-link-command)
-   
+
+#### Explanation
+> These commands use google scripts and the native bots built for the streaming platforms you love. This keeps your IP and information hidden and allows the scripts to be platform indepdent.
+
+
 ## Sus Command
 Shows noteable features of an osrs account in a condensed way.
 
