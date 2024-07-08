@@ -176,6 +176,24 @@ This one is really complicated and probably needs more explanation on how to use
 > [!WARNING]
 > Due to my lack of willpower to document this command, A LOT of it's features remain hidden.
 
+#### Syntax
+
+##### Basic 
+ - `!maxhit <optional name OR list of prefabs?> --<range|melee|mage>=<style specific strength value>`
+ - with prefab `!maxhit ags -m` OR with just str value `!maxhit -m=132`
+ - can also be combined so `!maxhit ags -m=53` would give you the value while wearing certain jewelry too
+ - `!maxhit ags+bandos+jewelry -m` is a great way to combine prefabs
+
+##### Options
+ - `--pot` = current increase by strength pot (defaults to max for style)
+ - `--prayer` = current percentage increase by prayer this will default to augury / rigour / piety if no value is provided
+ - `--tomb` = forces tome of fire on or off. by default it'll detect fire spells and assume tome use.
+ - `--elysian` = max hit if elysian procs
+ - `--salve`
+ - `--slayer`
+ - `--isPraying`
+
+
 Features
  - Quickly calculate max hit potential based on any styles current strength
  - save prefabs and armor sets for later use
