@@ -8,9 +8,9 @@ A bunch of useful stream bot commands you can use to lookup OSRS related informa
 #### Commands (recommended)
  - **!sus**   [Account Lookup](#sus-command)
  - **!price**   [Item Prices](#price-command)
- - **!wlink**   [Wiki Link Generator](#wiki-link-command)
+ - **!wlink**   [Wiki Page Finder](#wiki-link-command)
 
-#### Neat but less professional / more advanced
+#### Neat but not as recommended for big streams:
  - **!wiki**   [Wiki Text Search](#wiki-text-query)
  - **!maxhit**   [Maxhit Calculator](#max-hit-calculator-w-prefabs)
 
@@ -173,11 +173,14 @@ This one is really complicated and probably needs more explanation on how to use
 </image>
 </p>
 
+> [!WARNING]
+> Due to my lack of willpower to document this command, A LOT of it's features remain hidden.
+
 Features
  - Quickly calculate max hit potential based on any styles current strength
  - save prefabs and armor sets for later use
  - Can modify player levels, passives, pot boosts etc
-   
+
 -------
 
 > [!TIP]
