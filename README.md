@@ -159,7 +159,65 @@ Features
 
 </details>
 
+## Wiki Text Query
+Pretty advanced wiki query command. Attempts to get the information you need and present it neatly.
 
+<p>
+<image align="center" src="https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/073c8a39-fcf6-4549-b110-9b5ba26271cb" width="400" height="215">
+</image>
+</p>
+
+#### Syntax
+`!wiki <subject>`
+
+`!wiki <subject> | <sub-query>` 
+
+`!wiki <subject> | <sub-query> [increments]` (example: !wiki dwarf | pickaxe <<)
+
+`|` allows you to perform a text search within the page you find
+
+if you perform a sub query you can also do
+
+`>` increment, forward from start of page
+
+`<` decrement, move backwards from the end of the page
+
+
+Features
+ - Quickly calculate max hit potential based on any styles current strength
+ - save prefabs and armor sets for later use
+ - Can modify player levels, passives, pot boosts etc
+   
+-------
+
+> [!TIP]
+> StreamElements is the preferred choice as it allows for multiple requests to be queued at once.
+
+
+<details>
+  <summary>Nightbot</summary>
+
+  ```
+  !addcom !maxhit /me $(urlfetch https://script.google.com/macros/s/AKfycbybRK2W3RkjbhCDEKhB0oUt-Pn5Oz5Om32UmXUSGitWYBGFUzF8t1jNU3oS_Z4Ln5tX4Q/exec?raw=$(querystring))
+  ```
+
+</details>
+<details>
+  <summary>StreamElements</summary>
+  
+  ```
+  !command add !maxhit /me $(urlfetch https://script.google.com/macros/s/AKfycbybRK2W3RkjbhCDEKhB0oUt-Pn5Oz5Om32UmXUSGitWYBGFUzF8t1jNU3oS_Z4Ln5tX4Q/exec?raw=${queryescape ${1:}})
+  ```
+
+</details>
+<details>
+  <summary>Botrix (Kick.com)</summary>
+  
+  ```
+  !addcom !maxhit fetch[https://script.google.com/macros/s/AKfycbybRK2W3RkjbhCDEKhB0oUt-Pn5Oz5Om32UmXUSGitWYBGFUzF8t1jNU3oS_Z4Ln5tX4Q/exec?raw=$(variable)]
+  ```
+
+</details>
 
 ## Max Hit Calculator w/ Prefabs
 This one is really complicated and probably needs more explanation on how to use it but it's a max hit calculator that works as a command.
@@ -199,67 +257,6 @@ Features
  - save prefabs and armor sets for later use
  - Can modify player levels, passives, pot boosts etc
 
--------
-
-> [!TIP]
-> StreamElements is the preferred choice as it allows for multiple requests to be queued at once.
-
-
-<details>
-  <summary>Nightbot</summary>
-
-  ```
-  !addcom !maxhit /me $(urlfetch https://script.google.com/macros/s/AKfycbybRK2W3RkjbhCDEKhB0oUt-Pn5Oz5Om32UmXUSGitWYBGFUzF8t1jNU3oS_Z4Ln5tX4Q/exec?raw=$(querystring))
-  ```
-
-</details>
-<details>
-  <summary>StreamElements</summary>
-  
-  ```
-  !command add !maxhit /me $(urlfetch https://script.google.com/macros/s/AKfycbybRK2W3RkjbhCDEKhB0oUt-Pn5Oz5Om32UmXUSGitWYBGFUzF8t1jNU3oS_Z4Ln5tX4Q/exec?raw=${queryescape ${1:}})
-  ```
-
-</details>
-<details>
-  <summary>Botrix (Kick.com)</summary>
-  
-  ```
-  !addcom !maxhit fetch[https://script.google.com/macros/s/AKfycbybRK2W3RkjbhCDEKhB0oUt-Pn5Oz5Om32UmXUSGitWYBGFUzF8t1jNU3oS_Z4Ln5tX4Q/exec?raw=$(variable)]
-  ```
-
-</details>
-
-
-## Wiki Text Query
-Pretty advanced wiki query command. Attempts to get the information you need and present it neatly.
-
-<p>
-<image align="center" src="https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/073c8a39-fcf6-4549-b110-9b5ba26271cb" width="400" height="215">
-</image>
-</p>
-
-#### Syntax
-`!wiki <subject>`
-
-`!wiki <subject> | <sub-query>` 
-
-`!wiki <subject> | <sub-query> [increments]` (example: !wiki dwarf | pickaxe <<)
-
-`|` allows you to perform a text search within the page you find
-
-if you perform a sub query you can also do
-
-`>` increment, forward from start of page
-
-`<` decrement, move backwards from the end of the page
-
-
-Features
- - Quickly calculate max hit potential based on any styles current strength
- - save prefabs and armor sets for later use
- - Can modify player levels, passives, pot boosts etc
-   
 -------
 
 > [!TIP]
