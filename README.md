@@ -53,7 +53,7 @@ Shows noteable features of an osrs account in a condensed format.
 #### Features
  - shows total level / combat level
  - is iron / type
- - top 3 "interesting" combat levels that aren't 99.
+ - top 3 "interesting" combat levels that aren't 99 (if applicable).
  - important account achievements (I.E. high agility lvls / inferno / colosseum)
  - favorite activity (highest ranked)
    
