@@ -6,7 +6,7 @@ A bunch of useful stream bot commands you can use to lookup OSRS related informa
 ![Static Badge](https://img.shields.io/badge/Protected_Through_Separation_Of_Concerns-purple)
 
 #### Commands (recommended)
- - **!sus**   [Account Lookup / Identifier](#sus-command)
+ - **!sus**   [Account Lookup / Identifier](#sus-command-player-lookup)
  - **!price**   [Realtime Item Prices](#price-command)
  - **!wlink**   [Quick & Safe Wiki Link Generation For Streams](#wiki-link-command)
 
@@ -42,8 +42,8 @@ Honorable mentions: [jay_gravy](https://www.twitch.tv/jay_gravy), [scriptkid_rs]
 
 _Special thanks to these streamers for inspiring me to make this in the first place / letting me test these commands in their streams. All lovely fellows. ALSO, huge thanks to wiki boys for making such widely available API's and assisting when there were server issues._
 
-## Sus Command
-Shows noteable features of an osrs account in a condensed way.
+## Sus Command (Player Lookup)
+Shows noteable features of an osrs account in a condensed format.
 
 <p>
 <image align="center" src="https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/261d6b17-dbd7-4d37-b9ac-4ca60302a26d" width="400" height="120">
@@ -53,7 +53,7 @@ Shows noteable features of an osrs account in a condensed way.
 #### Features
  - shows total level / combat level
  - is iron / type
- - top 3 interesting non99s
+ - top 3 "interesting" combat levels that aren't 99.
  - important account achievements (I.E. high agility lvls / inferno / colosseum)
  - favorite activity (highest ranked)
    
