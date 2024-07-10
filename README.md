@@ -11,10 +11,13 @@ A bunch of useful stream bot commands you can use to lookup OSRS related informa
  - **!wlink**   [Quick & Safe Wiki Link Generation For Streams](#wiki-link-command)
  - **!news**   [Finds Latest Blog Post](#latest-blog-post-news-command)
 
-#### Neat but not as recommended for big streams:
- - **!wiki**   [Wiki Text Search](#wiki-text-query)
- - **!maxhit**   [Maxhit Calculator](#max-hit-calculator-w-prefabs)
+#### Neat but not great for big streams:
+   - **!wiki**   [Wiki Text Search](#wiki-text-query)
+   - **!maxhit**   [Maxhit Calculator](#max-hit-calculator-w-prefabs)
 
+#### Requires configuration:
+ - **!kc + !lvl**   [Streamer Kc/Lvl Command](#streamer-lvlkc-commands)
+   
 #### Explanation
 > These commands use google scripts and the native bots built for the streaming platforms you love. This keeps your IP and information hidden and allows the scripts to be platform independent.
 
@@ -402,9 +405,9 @@ If you'd like to read through my tests to see some of it's potential [check here
 <br/>
 
 ## Streamer Lvl+Kc Commands
-shows lvl or kc
+Searches for a level or task with kc depending on configuration
 
-<img src="https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/7769a713-61d7-4787-9f13-11b6c33e15e0" width="400" height="260"></img>
+<img src="https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/7769a713-61d7-4787-9f13-11b6c33e15e0" width="400" height="230"></img>
 
 > [!NOTE]
 > This command requires you to configure.
