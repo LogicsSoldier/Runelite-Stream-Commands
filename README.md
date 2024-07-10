@@ -5,7 +5,7 @@ A bunch of useful stream bot commands you can use to lookup OSRS related informa
 ![Static Badge](https://img.shields.io/badge/Safe_Secure-No_Identifiable_Information_Accessed-blue)
 ![Static Badge](https://img.shields.io/badge/Protected_Through_Separation_Of_Concerns-purple)
 
-#### Commands (recommended)
+#### Recommended Commands
  - **!sus**   [Account Lookup / Identifier](#sus-command-player-lookup)
  - **!price**   [Realtime Item Prices](#price-command)
  - **!wlink**   [Quick & Safe Wiki Link Generation For Streams](#wiki-link-command)
@@ -13,11 +13,11 @@ A bunch of useful stream bot commands you can use to lookup OSRS related informa
 
 #
 
-#### Neat but not great for big streams:
+##### Neat but niche:
    - **!wiki**   [Wiki Text Search](#wiki-text-query)
    - **!maxhit**   [Maxhit Calculator](#max-hit-calculator-w-prefabs)
 
-#### Requires configuration:
+##### Requires configuration:
  - **!kc + !lvl**   [Streamer Kc/Lvl Command](#streamer-lvlkc-commands)
 
 #
