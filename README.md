@@ -11,12 +11,16 @@ A bunch of useful stream bot commands you can use to lookup OSRS related informa
  - **!wlink**   [Quick & Safe Wiki Link Generation For Streams](#wiki-link-command)
  - **!news**   [Finds Latest Blog Post](#latest-blog-post-news-command)
 
+#
+
 #### Neat but not great for big streams:
    - **!wiki**   [Wiki Text Search](#wiki-text-query)
    - **!maxhit**   [Maxhit Calculator](#max-hit-calculator-w-prefabs)
 
 #### Requires configuration:
  - **!kc + !lvl**   [Streamer Kc/Lvl Command](#streamer-lvlkc-commands)
+
+#
    
 #### Explanation
 > These commands use google scripts and the native bots built for the streaming platforms you love. This keeps your IP and information hidden and allows the scripts to be platform independent.
@@ -44,6 +48,7 @@ Streamers: [Bellis](https://www.twitch.tv/bellis), [Westham](https://www.twitch.
 Honorable mentions: [jay_gravy](https://www.twitch.tv/jay_gravy), [scriptkid_rs](https://www.twitch.tv/scriptkid_rs), and many others who showed love and chatted with me in discord.
 
 _Special thanks to these streamers for inspiring me to make this in the first place / letting me test these commands in their streams. All lovely fellows. ALSO, huge thanks to wiki boys for making such widely available API's and assisting when there were server issues._
+
 
 <br/>
 
