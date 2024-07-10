@@ -380,13 +380,15 @@ If you'd like to read through my tests to see some of it's potential [check here
 
 ----- 
 
+#### Configuration Required For All Commands Below
+
 <br/>
 
 >[!NOTE]
 > Manual Configuration Section ( For the experienced dev )
 
 <h6> 
- 
+
  The commands below all require manual configuration, and may require more experience to set up.
 
  You should understand this before continuing
