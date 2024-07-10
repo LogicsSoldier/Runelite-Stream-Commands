@@ -184,7 +184,7 @@ Super simple command. No inputs required. Scrapes osrs website for latest blog p
 
 
 <p>
-<image align="center" src="https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/0e91bfa3-9764-41e7-aabd-6f0df73dbcee" width="400" height="123">
+<image align="center" src="https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/0e91bfa3-9764-41e7-aabd-6f0df73dbcee" width="400" height="130">
 </image>
 </p>
 <p>
