@@ -35,13 +35,14 @@ A bunch of useful stream bot commands you can use to lookup OSRS related informa
 
 </details>
 
-
 #### Credits
 Streamers: [Bellis](https://www.twitch.tv/bellis), [Westham](https://www.twitch.tv/westham), [Vanc](https://www.twitch.tv/Vanc), [Osku](https://www.twitch.tv/Osku), and [Dino_xx](https://www.twitch.tv/dino_xx)
 
 Honorable mentions: [jay_gravy](https://www.twitch.tv/jay_gravy), [scriptkid_rs](https://www.twitch.tv/scriptkid_rs), and many others who showed love and chatted with me in discord.
 
 _Special thanks to these streamers for inspiring me to make this in the first place / letting me test these commands in their streams. All lovely fellows. ALSO, huge thanks to wiki boys for making such widely available API's and assisting when there were server issues._
+
+<br/>
 
 ## Sus Command (Player Lookup)
 Shows noteable features of an osrs account in a condensed format.
@@ -88,6 +89,7 @@ Shows noteable features of an osrs account in a condensed format.
 
 </details>
 
+<br/>
 
 ## Price Command
 Looks up real time prices accurate up to 5 minutes.
@@ -134,6 +136,8 @@ Looks up real time prices accurate up to 5 minutes.
 
 </details>
 
+<br/>
+
 ## Wiki Link Command
 Uses the same wiki resolver implemented in the price command to rapidly find **oldschool.runescape.wiki** links for the chat. These links are always trusted and safe.
 
@@ -178,6 +182,7 @@ Uses the same wiki resolver implemented in the price command to rapidly find **o
 
 </details>
 
+<br/>
 
 ## Latest Blog Post (News Command)
 Super simple command. No inputs required. Scrapes osrs website for latest blog post.
@@ -222,6 +227,8 @@ Super simple command. No inputs required. Scrapes osrs website for latest blog p
   ```
 
 </details>
+
+<br/>
 
 ## Wiki Text Query
 Pretty advanced wiki query command. Attempts to get the information you need and present it neatly.
@@ -286,6 +293,8 @@ if you perform a sub query you can also do:
   ```
 
 </details>
+
+<br/>
 
 ## Max Hit Calculator w/ Prefabs
 This one is really complicated and probably needs more explanation on how to use it but it's a max hit calculator that works as a command.
