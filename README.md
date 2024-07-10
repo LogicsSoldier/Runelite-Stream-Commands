@@ -207,7 +207,7 @@ Super simple command. No inputs required. Scrapes osrs website for latest blog p
   <summary>Nightbot</summary>
 
   ```
-  !addcom !news Latest blog post: $(urlfetch https://script.google.com/macros/s/AKfycbxzSsJ0bh5LH0TfJ2IBHGt7odD4tTQWKZ1uhxVBc1GyvtumBIAUA5SOijg1XHc2yLBA/exec)
+  !addcom !news $(urlfetch https://script.google.com/macros/s/AKfycbxzSsJ0bh5LH0TfJ2IBHGt7odD4tTQWKZ1uhxVBc1GyvtumBIAUA5SOijg1XHc2yLBA/exec)
   ```
 
 </details>
@@ -215,7 +215,7 @@ Super simple command. No inputs required. Scrapes osrs website for latest blog p
   <summary>StreamElements</summary>
   
   ```
-  !command add !news Latest blog post: $(urlfetch https://script.google.com/macros/s/AKfycbxzSsJ0bh5LH0TfJ2IBHGt7odD4tTQWKZ1uhxVBc1GyvtumBIAUA5SOijg1XHc2yLBA/exec)
+  !command add !news $(urlfetch https://script.google.com/macros/s/AKfycbxzSsJ0bh5LH0TfJ2IBHGt7odD4tTQWKZ1uhxVBc1GyvtumBIAUA5SOijg1XHc2yLBA/exec)
   ```
 
 </details>
@@ -223,7 +223,7 @@ Super simple command. No inputs required. Scrapes osrs website for latest blog p
   <summary>Botrix (Kick.com)</summary>
   
   ```
-  !addcom !news Latest blog post: fetch[https://script.google.com/macros/s/AKfycbxzSsJ0bh5LH0TfJ2IBHGt7odD4tTQWKZ1uhxVBc1GyvtumBIAUA5SOijg1XHc2yLBA/exec]
+  !addcom !news fetch[https://script.google.com/macros/s/AKfycbxzSsJ0bh5LH0TfJ2IBHGt7odD4tTQWKZ1uhxVBc1GyvtumBIAUA5SOijg1XHc2yLBA/exec]
   ```
 
 </details>
