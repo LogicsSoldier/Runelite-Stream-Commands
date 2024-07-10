@@ -404,6 +404,8 @@ If you'd like to read through my tests to see some of it's potential [check here
 ## Streamer Lvl+Kc Commands
 shows lvl or kc
 
+<img src="https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/7769a713-61d7-4787-9f13-11b6c33e15e0" width="400" height="260"></img>
+
 > [!NOTE]
 > This command requires you to configure.
 
