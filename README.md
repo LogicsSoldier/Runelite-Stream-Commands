@@ -405,7 +405,7 @@ If you'd like to read through my tests to see some of it's potential [check here
 shows lvl or kc
 
 > [!NOTE]
-> Requires you to configure.
+> This command requires you to configure.
 
 ###### URL
 
