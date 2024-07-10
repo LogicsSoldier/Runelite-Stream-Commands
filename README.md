@@ -42,6 +42,8 @@ A bunch of useful stream bot commands you can use to lookup OSRS related informa
 
 </details>
 
+----
+
 #### Credits
 Streamers: [Bellis](https://www.twitch.tv/bellis), [Westham](https://www.twitch.tv/westham), [Vanc](https://www.twitch.tv/Vanc), [Osku](https://www.twitch.tv/Osku), and [Dino_xx](https://www.twitch.tv/dino_xx)
 
