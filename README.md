@@ -367,3 +367,29 @@ If you'd like to read through my tests to see some of it's potential [check here
   ```
 
 </details>
+
+## Streamer Lvl+Kc Commands
+shows lvl or kc
+
+> [!IMPORTANT]
+> Requires you to configure.
+
+###### URL
+
+```
+https://script.google.com/macros/s/AKfycbyU8LGlB05uSKoBOePVu1pZu8i72N3eZA9LTZ1uB1icq-i7i11dyFK0RJVS0QilxMfL/exec
+```
+
+###### URL Components
+
+| name | description |
+| --- | --- |
+| streamer | `string` osrs account for the streamer |
+| isLvl | `true\|false` determines if lvl or kc command |
+| raw | `string` this will be the value to search for normally a good place for the querystring |
+
+
+###### Example 
+
+Url + `?streamer=b0aty&isLvl=false&raw=Overall` 
+
