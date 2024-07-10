@@ -9,6 +9,7 @@ A bunch of useful stream bot commands you can use to lookup OSRS related informa
  - **!sus**   [Account Lookup / Identifier](#sus-command-player-lookup)
  - **!price**   [Realtime Item Prices](#price-command)
  - **!wlink**   [Quick & Safe Wiki Link Generation For Streams](#wiki-link-command)
+ - **!news**   [Finds Latest Blog Post](#latest-blog-post-news-command)
 
 #### Neat but not as recommended for big streams:
  - **!wiki**   [Wiki Text Search](#wiki-text-query)
@@ -173,6 +174,51 @@ Uses the same wiki resolver implemented in the price command to rapidly find **o
   
   ```
   !addcom !wlink fetch[https://script.google.com/macros/s/AKfycbyYtxnCW7oND6bMs8faGK57CKHg0qqK5DuHPrrOr2Hg9r6TiJOuZ5bV9kwi61j3D4-y/exec?raw=$(variable)]
+  ```
+
+</details>
+
+
+## Latest Blog Post (News Command)
+Super simple command. No inputs required. Scrapes osrs website for latest blog post.
+
+
+<p>
+<image align="center" src="https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/0e91bfa3-9764-41e7-aabd-6f0df73dbcee" width="400" height="123">
+</image>
+</p>
+<p>
+
+#### Features
+ - Links to the latest Jagex blog post and that's it =)
+   
+-------
+
+> [!TIP]
+> StreamElements is the preferred choice as it allows for multiple requests to be queued at once.
+
+
+<details>
+  <summary>Nightbot</summary>
+
+  ```
+  !addcom !news Latest blog post: $(urlfetch https://script.google.com/macros/s/AKfycbzRAZzOYT8Ivuag5lmkDeXDm_JYrKw4Hvsx3RZ2ZdNWbCwWz_-jznPt1805yy_iXmFE/exec)
+  ```
+
+</details>
+<details>
+  <summary>StreamElements</summary>
+  
+  ```
+  !command add !news Latest blog post: $(urlfetch https://script.google.com/macros/s/AKfycbzRAZzOYT8Ivuag5lmkDeXDm_JYrKw4Hvsx3RZ2ZdNWbCwWz_-jznPt1805yy_iXmFE/exec)
+  ```
+
+</details>
+<details>
+  <summary>Botrix (Kick.com)</summary>
+  
+  ```
+  !addcom !news Latest blog post: fetch[https://script.google.com/macros/s/AKfycbzRAZzOYT8Ivuag5lmkDeXDm_JYrKw4Hvsx3RZ2ZdNWbCwWz_-jznPt1805yy_iXmFE/exec]
   ```
 
 </details>
