@@ -295,7 +295,7 @@ This one is really complicated and probably needs more explanation on how to use
 </image>
 </p>
 <p>
-<image align="center" src="https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/34690d9a-4736-4914-b7c4-9aaa052a10df" width="400" height="125">
+<image align="center" src="https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/34690d9a-4736-4914-b7c4-9aaa052a10df" width="400" height="140">
 </image>
 </p>
 
