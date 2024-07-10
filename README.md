@@ -368,10 +368,43 @@ If you'd like to read through my tests to see some of it's potential [check here
 
 </details>
 
+<br/>
+
+----- 
+
+<br/>
+
+>[!NOTE]
+> Manual Configuration Section ( For the experienced dev )
+
+<h6> 
+ 
+ The commands below all require manual configuration, and may require more experience to set up.
+
+ You should understand this before continuing
+ 
+ </h6>
+
+ | name | example |
+ | -- | -- |
+ | base url | https://script.google.com/macros/s/AKfycbyU8LGlB05uSKoBOePVu1pZu8i72N3eZA9LTZ1uB1icq-i7i11dyFK0RJVS0QilxMfL/exec |
+ | start of url params | ? |
+ | param name | streamer |
+ | equal operator | = |
+ | argument | b0aty |
+ 
+ 
+ 
+ Example: `?streamer=b0aty&raw=$(querystring)`
+
+
+
+<br/>
+
 ## Streamer Lvl+Kc Commands
 shows lvl or kc
 
-> [!IMPORTANT]
+> [!NOTE]
 > Requires you to configure.
 
 ###### URL
