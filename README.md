@@ -227,7 +227,7 @@ Super simple command. No inputs required. Scrapes osrs website for latest blog p
 Pretty advanced wiki query command. Attempts to get the information you need and present it neatly.
 
 <p>
-<image align="center" src="https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/073c8a39-fcf6-4549-b110-9b5ba26271cb" width="400" height="215">
+<image align="center" src="https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/073c8a39-fcf6-4549-b110-9b5ba26271cb" width="400" height="255">
 </image>
 </p>
 
