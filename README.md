@@ -402,6 +402,7 @@ If you'd like to read through my tests to see some of it's potential [check here
  | param name | streamer |
  | equal operator | = |
  | argument | b0aty |
+ | and operator | & |
  
  
  
