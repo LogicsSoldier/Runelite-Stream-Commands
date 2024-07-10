@@ -185,17 +185,17 @@ Uses the same wiki resolver implemented in the price command to rapidly find **o
 <br/>
 
 ## Latest Blog Post (News Command)
-Super simple command. No inputs required. Scrapes osrs website for latest blog post.
+Super simple command. No inputs required. Scrapes osrs website for latest update blog post.
 
 
 <p>
-<image align="center" src="https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/0e91bfa3-9764-41e7-aabd-6f0df73dbcee" width="400" height="130">
+<image align="center" src="https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/e3f7fc78-42bf-4765-8bb0-164f4025c354" width="400" height="130">
 </image>
 </p>
 <p>
 
 #### Features
- - Links to the latest Jagex blog post and that's it =)
+ - Links to the latest Jagex update blog, and that's it =)
    
 -------
 
