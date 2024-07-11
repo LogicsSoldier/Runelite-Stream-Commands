@@ -8,8 +8,8 @@ A bunch of useful stream bot commands you can use to lookup OSRS related informa
 #### Recommended Commands
  - **!sus**   [Account Lookup / Identifier](#sus-command-player-lookup)
  - **!price**   [Realtime Item Prices](#price-command)
- - **!wlink**   [Quick & Safe Wiki Link Generation For Streams](#wiki-link-command)
  - **!news**   [Finds Latest Blog Post](#latest-blog-post-news-command)
+ - **!wlink**   [Quick & Safe Wiki Link Generation For Streams](#wiki-link-command)
 
 #
 
@@ -148,52 +148,6 @@ Looks up real time prices accurate up to 5 minutes.
 
 <br/>
 
-## Wiki Link Command
-Uses the same wiki resolver implemented in the price command to rapidly find **oldschool.runescape.wiki** links for the chat. These links are always trusted and safe.
-
-<p>
-<image align="center" src="https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/5aa7362f-d326-4453-a8d8-1eb7b7821658" width="400" height="120">
-</image>
-</p>
-
-#### Features
- - Uses wiki resolver for flexible querying
- - Quickly displays related wiki links in chat
- - Easy way to allow for trusted links
-   
--------
-
-> [!TIP]
-> StreamElements is the preferred choice as it allows for multiple requests to be queued at once.
-
-
-<details>
-  <summary>Nightbot</summary>
-
-  ```
-  !addcom !wlink /me $(urlfetch https://script.google.com/macros/s/AKfycbyYtxnCW7oND6bMs8faGK57CKHg0qqK5DuHPrrOr2Hg9r6TiJOuZ5bV9kwi61j3D4-y/exec?raw=$(querystring))
-  ```
-
-</details>
-<details>
-  <summary>StreamElements</summary>
-  
-  ```
-  !command add !wlink /me $(urlfetch https://script.google.com/macros/s/AKfycbyYtxnCW7oND6bMs8faGK57CKHg0qqK5DuHPrrOr2Hg9r6TiJOuZ5bV9kwi61j3D4-y/exec?raw=${queryescape ${1:}})
-  ```
-
-</details>
-<details>
-  <summary>Botrix (Kick.com)</summary>
-  
-  ```
-  !addcom !wlink fetch[https://script.google.com/macros/s/AKfycbyYtxnCW7oND6bMs8faGK57CKHg0qqK5DuHPrrOr2Hg9r6TiJOuZ5bV9kwi61j3D4-y/exec?raw=$(variable)]
-  ```
-
-</details>
-
-<br/>
-
 ## Latest Blog Post (News Command)
 Super simple command. No inputs required. Scrapes osrs website for latest update blog post.
 
@@ -234,6 +188,53 @@ Super simple command. No inputs required. Scrapes osrs website for latest update
   
   ```
   !addcom !news fetch[https://script.google.com/macros/s/AKfycbxzSsJ0bh5LH0TfJ2IBHGt7odD4tTQWKZ1uhxVBc1GyvtumBIAUA5SOijg1XHc2yLBA/exec]
+  ```
+
+</details>
+
+
+<br/>
+
+## Wiki Link Command
+Uses the same wiki resolver implemented in the price command to rapidly find **oldschool.runescape.wiki** links for the chat. These links are always trusted and safe.
+
+<p>
+<image align="center" src="https://github.com/LogicsSoldier/Runelite-Stream-Commands/assets/4423284/5aa7362f-d326-4453-a8d8-1eb7b7821658" width="400" height="120">
+</image>
+</p>
+
+#### Features
+ - Uses wiki resolver for flexible querying
+ - Quickly displays related wiki links in chat
+ - Easy way to allow for trusted links
+   
+-------
+
+> [!TIP]
+> StreamElements is the preferred choice as it allows for multiple requests to be queued at once.
+
+
+<details>
+  <summary>Nightbot</summary>
+
+  ```
+  !addcom !wlink /me $(urlfetch https://script.google.com/macros/s/AKfycbyYtxnCW7oND6bMs8faGK57CKHg0qqK5DuHPrrOr2Hg9r6TiJOuZ5bV9kwi61j3D4-y/exec?raw=$(querystring))
+  ```
+
+</details>
+<details>
+  <summary>StreamElements</summary>
+  
+  ```
+  !command add !wlink /me $(urlfetch https://script.google.com/macros/s/AKfycbyYtxnCW7oND6bMs8faGK57CKHg0qqK5DuHPrrOr2Hg9r6TiJOuZ5bV9kwi61j3D4-y/exec?raw=${queryescape ${1:}})
+  ```
+
+</details>
+<details>
+  <summary>Botrix (Kick.com)</summary>
+  
+  ```
+  !addcom !wlink fetch[https://script.google.com/macros/s/AKfycbyYtxnCW7oND6bMs8faGK57CKHg0qqK5DuHPrrOr2Hg9r6TiJOuZ5bV9kwi61j3D4-y/exec?raw=$(variable)]
   ```
 
 </details>
