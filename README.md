@@ -71,8 +71,15 @@ Shows noteable features of an osrs account in a condensed format.
    
 -------
 
+| Copy & Paste An Option Below |
+| --- | 
+
+<br/>
+
 > [!TIP]
 > StreamElements is the preferred choice as it allows for multiple requests to be queued at once.
+
+<br/>
 
 <details>
   <summary>Nightbot</summary>
@@ -117,9 +124,15 @@ Looks up real time prices accurate up to 5 minutes.
    
 -------
 
+| Copy & Paste An Option Below |
+| --- | 
+
+<br/>
+
 > [!TIP]
 > StreamElements is the preferred choice as it allows for multiple requests to be queued at once.
 
+<br/>
 
 <details>
   <summary>Nightbot</summary>
@@ -163,9 +176,15 @@ Super simple command. No inputs required. Scrapes osrs website for latest update
    
 -------
 
+| Copy & Paste An Option Below |
+| --- | 
+
+<br/>
+
 > [!TIP]
 > StreamElements is the preferred choice as it allows for multiple requests to be queued at once.
 
+<br/>
 
 <details>
   <summary>Nightbot</summary>
@@ -210,9 +229,15 @@ Uses the same wiki resolver implemented in the price command to rapidly find **o
    
 -------
 
+| Copy & Paste An Option Below |
+| --- | 
+
+<br/>
+
 > [!TIP]
 > StreamElements is the preferred choice as it allows for multiple requests to be queued at once.
 
+<br/>
 
 <details>
   <summary>Nightbot</summary>
@@ -276,9 +301,15 @@ if you perform a sub query you can also do:
    
 -------
 
+| Copy & Paste An Option Below |
+| --- | 
+
+<br/>
+
 > [!TIP]
 > StreamElements is the preferred choice as it allows for multiple requests to be queued at once.
 
+<br/>
 
 <details>
   <summary>Nightbot</summary>
@@ -350,9 +381,15 @@ If you'd like to read through my tests to see some of it's potential [check here
 
 -------
 
+| Copy & Paste An Option Below |
+| --- | 
+
+<br/>
+
 > [!TIP]
 > StreamElements is the preferred choice as it allows for multiple requests to be queued at once.
 
+<br/>
 
 <details>
   <summary>Nightbot</summary>
