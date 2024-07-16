@@ -243,7 +243,7 @@ Uses the same wiki resolver implemented in the price command to rapidly find **o
   <summary>Nightbot</summary>
 
   ```
-  !addcom !wlink /me $(urlfetch https://script.google.com/macros/s/AKfycbyYtxnCW7oND6bMs8faGK57CKHg0qqK5DuHPrrOr2Hg9r6TiJOuZ5bV9kwi61j3D4-y/exec?raw=$(querystring))
+  !addcom !wlink /me $(urlfetch https://script.google.com/macros/s/AKfycbyGaYevqufPqXbFUUCbulDCm0Yl-p0OzMAMdIghOKc7PLdTUs63XaxdyjfjHBn3CtuX/exec?raw=$(querystring))
   ```
 
 </details>
@@ -251,7 +251,7 @@ Uses the same wiki resolver implemented in the price command to rapidly find **o
   <summary>StreamElements</summary>
   
   ```
-  !command add !wlink /me $(urlfetch https://script.google.com/macros/s/AKfycbyYtxnCW7oND6bMs8faGK57CKHg0qqK5DuHPrrOr2Hg9r6TiJOuZ5bV9kwi61j3D4-y/exec?raw=${queryescape ${1:}})
+  !command add !wlink /me $(urlfetch https://script.google.com/macros/s/AKfycbyGaYevqufPqXbFUUCbulDCm0Yl-p0OzMAMdIghOKc7PLdTUs63XaxdyjfjHBn3CtuX/exec?raw=${queryescape ${1:}})
   ```
 
 </details>
@@ -259,7 +259,7 @@ Uses the same wiki resolver implemented in the price command to rapidly find **o
   <summary>Botrix (Kick.com)</summary>
   
   ```
-  !addcom !wlink fetch[https://script.google.com/macros/s/AKfycbyYtxnCW7oND6bMs8faGK57CKHg0qqK5DuHPrrOr2Hg9r6TiJOuZ5bV9kwi61j3D4-y/exec?raw=$(variable)]
+  !addcom !wlink fetch[https://script.google.com/macros/s/AKfycbyGaYevqufPqXbFUUCbulDCm0Yl-p0OzMAMdIghOKc7PLdTUs63XaxdyjfjHBn3CtuX/exec?raw=$(variable)]
   ```
 
 </details>
