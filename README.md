@@ -296,7 +296,7 @@ Pulls up the item statbox from the wiki
   <summary>Nightbot</summary>
 
   ```
-  !addcom !item /me $(urlfetch https://script.google.com/macros/s/AKfycby_9k6pLsav7T6g5ujlM_NnZi5m_QTb3aUSPUEtTewXAY6CrUS73kv6NPd1YAdMY7i_rg/exec?raw=$(querystring))
+  !addcom !item /me $(urlfetch https://script.google.com/macros/s/AKfycbxUYBdW-2lfnZtC8O1P4ebZDQWNNIJ4luk6QJBMXpNDzs3_13sJbKsJJxNfPi7EuH4k8A/exec?raw=$(querystring))
   ```
 
 </details>
@@ -304,7 +304,7 @@ Pulls up the item statbox from the wiki
   <summary>StreamElements</summary>
   
   ```
-  !command add !item /me $(urlfetch https://script.google.com/macros/s/AKfycby_9k6pLsav7T6g5ujlM_NnZi5m_QTb3aUSPUEtTewXAY6CrUS73kv6NPd1YAdMY7i_rg/exec?raw=${queryescape ${1:}})
+  !command add !item /me $(urlfetch https://script.google.com/macros/s/AKfycbxUYBdW-2lfnZtC8O1P4ebZDQWNNIJ4luk6QJBMXpNDzs3_13sJbKsJJxNfPi7EuH4k8A/exec?raw=${queryescape ${1:}})
   ```
 
 </details>
@@ -312,7 +312,7 @@ Pulls up the item statbox from the wiki
   <summary>Botrix (Kick.com)</summary>
   
   ```
-  !addcom !item fetch[https://script.google.com/macros/s/AKfycby_9k6pLsav7T6g5ujlM_NnZi5m_QTb3aUSPUEtTewXAY6CrUS73kv6NPd1YAdMY7i_rg/exec?raw=$(variable)]
+  !addcom !item fetch[https://script.google.com/macros/s/AKfycbxUYBdW-2lfnZtC8O1P4ebZDQWNNIJ4luk6QJBMXpNDzs3_13sJbKsJJxNfPi7EuH4k8A/exec?raw=$(variable)]
   ```
 
 </details>
