@@ -14,6 +14,7 @@ A bunch of useful stream bot commands you can use to lookup OSRS related informa
 #
 
 ##### Neat but niche:
+   - **!item**   [Quick Item Attribute Retrieval](#item-stats)
    - **!wiki**   [Wiki Text Search](#wiki-text-query)
    - **!maxhit**   [Maxhit Calculator](#max-hit-calculator-w-prefabs)
 
@@ -260,6 +261,58 @@ Uses the same wiki resolver implemented in the price command to rapidly find **o
   
   ```
   !addcom !wlink fetch[https://script.google.com/macros/s/AKfycbyGaYevqufPqXbFUUCbulDCm0Yl-p0OzMAMdIghOKc7PLdTUs63XaxdyjfjHBn3CtuX/exec?raw=$(variable)]
+  ```
+
+</details>
+
+<br/>
+
+## Item Stats
+Pulls up the item statbox from the wiki
+
+<p>
+<image align="center" src="https://github.com/user-attachments/assets/30101066-f620-43cf-bcae-0e05248bf550" width="400" height="120">
+</image>
+</p>
+
+#### Features
+ - Uses wiki resolver for flexible querying
+ - Quickly display items offensive and defensive values
+ - filters out unnecessary values
+   
+-------
+
+| Copy & Paste An Option Below |
+| --- | 
+
+<br/>
+
+> [!TIP]
+> StreamElements is the preferred choice as it allows for multiple requests to be queued at once.
+
+<br/>
+
+<details>
+  <summary>Nightbot</summary>
+
+  ```
+  !addcom !item /me $(urlfetch https://script.google.com/macros/s/AKfycby_9k6pLsav7T6g5ujlM_NnZi5m_QTb3aUSPUEtTewXAY6CrUS73kv6NPd1YAdMY7i_rg/exec?raw=$(querystring))
+  ```
+
+</details>
+<details>
+  <summary>StreamElements</summary>
+  
+  ```
+  !command add !item /me $(urlfetch https://script.google.com/macros/s/AKfycby_9k6pLsav7T6g5ujlM_NnZi5m_QTb3aUSPUEtTewXAY6CrUS73kv6NPd1YAdMY7i_rg/exec?raw=${queryescape ${1:}})
+  ```
+
+</details>
+<details>
+  <summary>Botrix (Kick.com)</summary>
+  
+  ```
+  !addcom !item fetch[https://script.google.com/macros/s/AKfycby_9k6pLsav7T6g5ujlM_NnZi5m_QTb3aUSPUEtTewXAY6CrUS73kv6NPd1YAdMY7i_rg/exec?raw=$(variable)]
   ```
 
 </details>
