@@ -14,9 +14,9 @@ A bunch of useful stream bot commands you can use to lookup OSRS related informa
 #
 
 ##### Neat but niche:
-   - **!item**   [Quick Item Attribute Retrieval](#item-stats)
-   - **!wiki**   [Wiki Text Search](#wiki-text-query)
-   - **!maxhit**   [Maxhit Calculator](#max-hit-calculator-w-prefabs)
+   - **!item**   [Quick Attribute Retrieval](#item-stats)
+   - **!wiki**   [Advanced Wiki Text Search](#wiki-text-query)
+   - **!maxhit**   [Maxhit Calculator w/ Prefabs](#max-hit-calculator-w-prefabs)
 
 ##### Requires configuration:
  - **!kc + !lvl**   [Streamer Kc/Lvl Command](#streamer-lvlkc-commands)
@@ -296,7 +296,7 @@ Pulls up the item statbox from the wiki
   <summary>Nightbot</summary>
 
   ```
-  !addcom !item /me $(urlfetch https://script.google.com/macros/s/AKfycbxUYBdW-2lfnZtC8O1P4ebZDQWNNIJ4luk6QJBMXpNDzs3_13sJbKsJJxNfPi7EuH4k8A/exec?raw=$(querystring))
+  !addcom !item /me $(urlfetch https://script.google.com/macros/s/AKfycbx3Kw4zToKA6XEZG-bK-xJVED2AJ4EXSqO6w5sAo-ujPoVkSZzTd9NX90-fDMu8Odpqxw/exec?raw=$(querystring))
   ```
 
 </details>
@@ -304,7 +304,7 @@ Pulls up the item statbox from the wiki
   <summary>StreamElements</summary>
   
   ```
-  !command add !item /me $(urlfetch https://script.google.com/macros/s/AKfycbxUYBdW-2lfnZtC8O1P4ebZDQWNNIJ4luk6QJBMXpNDzs3_13sJbKsJJxNfPi7EuH4k8A/exec?raw=${queryescape ${1:}})
+  !command add !item /me $(urlfetch https://script.google.com/macros/s/AKfycbx3Kw4zToKA6XEZG-bK-xJVED2AJ4EXSqO6w5sAo-ujPoVkSZzTd9NX90-fDMu8Odpqxw/exec?raw=${queryescape ${1:}})
   ```
 
 </details>
@@ -312,7 +312,7 @@ Pulls up the item statbox from the wiki
   <summary>Botrix (Kick.com)</summary>
   
   ```
-  !addcom !item fetch[https://script.google.com/macros/s/AKfycbxUYBdW-2lfnZtC8O1P4ebZDQWNNIJ4luk6QJBMXpNDzs3_13sJbKsJJxNfPi7EuH4k8A/exec?raw=$(variable)]
+  !addcom !item fetch[https://script.google.com/macros/s/AKfycbx3Kw4zToKA6XEZG-bK-xJVED2AJ4EXSqO6w5sAo-ujPoVkSZzTd9NX90-fDMu8Odpqxw/exec?raw=$(variable)]
   ```
 
 </details>
