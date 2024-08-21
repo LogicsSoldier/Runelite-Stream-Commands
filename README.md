@@ -39,7 +39,7 @@ A bunch of useful stream bot commands you can use to lookup OSRS related informa
 
 <br/>
 
-![image](https://github.com/user-attachments/assets/63ad7d26-dd62-4910-8f55-64b47198930a)
+![image](https://github.com/user-attachments/assets/5825f1e3-1364-4a11-ad80-60e3eeac24d1)
 
 .. lack of artistic skill aside
 
