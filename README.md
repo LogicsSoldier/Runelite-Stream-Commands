@@ -289,7 +289,7 @@ Uses the same wiki resolver implemented in the price command to rapidly find **o
 Pulls up the item statbox from the wiki
 
 <p>
-<image align="center" src="https://github.com/user-attachments/assets/30101066-f620-43cf-bcae-0e05248bf550" width="400" height="120">
+<image align="center" src="https://github.com/user-attachments/assets/9931f95e-e587-4c8c-b8a9-8a1ae31c595c" width="400" height="100">
 </image>
 </p>
 
