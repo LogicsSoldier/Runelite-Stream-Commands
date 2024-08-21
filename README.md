@@ -58,7 +58,7 @@ A bunch of useful stream bot commands you can use to lookup OSRS related informa
 
 #### Youtube Guide
 
-[![Video Explanation](https://img.youtube.com/vi/ikNUu3j78Xw/0.jpg)](https://www.youtube.com/watch?v=ikNUu3j78Xw)
+[![Video Explanation](https://github.com/user-attachments/assets/1ab22fc2-2156-40c7-8851-27122f0908b2)](https://www.youtube.com/watch?v=ikNUu3j78Xw)
 
 
 #### Credits
