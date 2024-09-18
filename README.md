@@ -104,7 +104,7 @@ Shows noteable features of an osrs account in a condensed format.
   <summary>Nightbot</summary>
 
   ```
-  !addcom !sus /me $(urlfetch https://script.google.com/macros/s/AKfycbxudzNlzeYIfX-bKucllmjUOSaHUOTijg6wD7vAuOoZkNptNDNHdcXAEnGNrpguNakG/exec?raw=$(querystring))
+  !addcom !sus /me $(urlfetch https://script.google.com/macros/s/AKfycbwnKZQ_qCav2skrIywtT8allN435tgHbHqHtmaRiULsEovzkeUt6fTmso2s0SR_12AC/exec?raw=$(querystring))
   ```
 
 </details>
@@ -112,7 +112,7 @@ Shows noteable features of an osrs account in a condensed format.
   <summary>StreamElements</summary>
   
   ```
-  !command add !sus /me $(urlfetch https://script.google.com/macros/s/AKfycbxudzNlzeYIfX-bKucllmjUOSaHUOTijg6wD7vAuOoZkNptNDNHdcXAEnGNrpguNakG/exec?raw=${queryescape ${1:}})
+  !command add !sus /me $(urlfetch https://script.google.com/macros/s/AKfycbwnKZQ_qCav2skrIywtT8allN435tgHbHqHtmaRiULsEovzkeUt6fTmso2s0SR_12AC/exec?raw=${queryescape ${1:}})
   ```
 
 </details>
@@ -120,7 +120,7 @@ Shows noteable features of an osrs account in a condensed format.
   <summary>Botrix (Kick.com)</summary>
   
   ```
-  !addcom !sus fetch[https://script.google.com/macros/s/AKfycbxudzNlzeYIfX-bKucllmjUOSaHUOTijg6wD7vAuOoZkNptNDNHdcXAEnGNrpguNakG/exec?raw=$(variable)]
+  !addcom !sus fetch[https://script.google.com/macros/s/AKfycbwnKZQ_qCav2skrIywtT8allN435tgHbHqHtmaRiULsEovzkeUt6fTmso2s0SR_12AC/exec?raw=$(variable)]
   ```
 
 </details>
